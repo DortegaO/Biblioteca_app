@@ -5,14 +5,16 @@ public class precio
     private String Farenheith;
     private String Revival;
     private String Alquimista;
-
+    private String Poder;
+    private String Despertar;
 
     public precio()
     {
-        Farenheith = "5000";
-        Revival = "12000";
+        Farenheith = "7000";
+        Revival = "22000";
         Alquimista = "45000";
-
+        Poder = "88000";
+        Despertar = "156000";
     }
 
     public String getFarenheith()
@@ -30,6 +32,9 @@ public class precio
         return Alquimista;
     }
 
+    public String getPoder() { return Poder; }
+
+    public String getDespertar() { return Despertar; }
 
 
 }
